@@ -1,0 +1,17 @@
+Mỗi user có 1 thư mục chứa các file config /usr/local/123VPS/data/<username> có cấu trúc như sau:
+- httpd.conf
+- httpd_ssl.conf (nếu ssl=on trong file <domain>.conf thì mới tạo file này)
+- nginx.conf
+- nginx_ssl.conf (nếu ssl=on trong file <domain>.conf thì mới tạo file này)
+- php-fpm.conf
+- user_domains
+- Folder domains:
++ <domain>.conf
++ <domain>.pointers (nếu pointers=yes trong <domain>.conf thì mới tạo file này)
++ <domain>.ips
+(Nếu có nhiều domain thì mỗi domain sẽ có 3 file như trên)
+
+
+Danh sách các domain trong hệ thống sẽ được lưu ở file /etc/domains (kể cả alias và subdomain), file này được tổng hợp thông tin từ các file user_domains của mỗi user.
+Sau mỗi thao tác thêm/sửa/xóa domain sẽ cập nhật lại file này.
+

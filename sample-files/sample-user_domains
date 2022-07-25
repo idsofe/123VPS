@@ -1,0 +1,3 @@
+Mỗi user có 1 file thống kê xem có những domain nào, kết quả sẽ được tổng hợp ở file /etc/domains để phục vụ công tác thống kê số lượng domain trong hệ thống
+
+user: domain (bao gồm cả addon và alias)

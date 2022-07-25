@@ -1,0 +1,21 @@
+1. Thêm domain/user
+
+2. Sửa domain
+
+3. Xóa domain/user
+
+4. Liệt kê domain
+
+5. Thêm DB
+
+6. Đổi mật khẩu DB
+
+7. Xóa DB
+
+8. Liệt kê các phiên bản PHP
+
+9. Cài thêm PHP
+
+10. Backup
+
+11. SSL: cấp mới, gia hạn

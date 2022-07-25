@@ -1,0 +1,21 @@
+- Cài epel, update
+
+- Tắt firewall, selinux
+
+- Cài httpd: port 8080 + 8081 (SSL), tạo thư mục log, thêm cấu hình include các file .conf của từng user, enable service 
+
+- Cài nginx: port 80 + 443 (SSL), tạo thư mục log, thêm cấu hình include các file .conf của từng user, enable service
+
+- Cài multi PHP + fpm bằng remi, cài sẵn 5.6 + 7.4,  thêm cấu hình include các file .conf của từng user, enable các service fpm
+
+- Cài mysql 5.7, đổi mật khẩu, cấu hình sẵn đăng nhập root không password
+
+- Cài phpMyAdmin latest (PHP >=7.2)
+
+- Cài ftp: pure-ftpd
+
+- Cài certbot
+
+- Cài csf
+
+

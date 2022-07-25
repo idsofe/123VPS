@@ -1,0 +1,20 @@
+- Nhập domain (tên biến: vardomain)
+
+- Kiểm tra domain: kt lỗi nhập, đã tồn tại trong hệ thống chưa (check file /etc/domains)
+
+- Nhập username (tên biến: varuser)
+
+- Kiểm tra username: kt lỗi nhập, đã tồn tại trong hệ thống chưa (check file /etc/shadow)
+
+- Tạo HOMEDIR: 
++ Tạo user
++ FTP user
++ Tạo HOMEDIR và chown
+
+- Chọn IP (tên biến: ip): hiện danh sách các IP có trong hệ thống, chọn xong tạo vhost
+
+- Copy các file conf từ thư mục sample-files và thay các giá trị vardomain, varuser, ip ở trên vào: 
+
+- In kết quả: domain, username, mật khẩu FTP, IP.
+
+- Cập nhật file /etc/domains
